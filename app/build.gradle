@@ -14,6 +14,7 @@ sonarqube {
         property "sonar.exclusions","build/**,**/*.png"
         property "sonar.import_unknown_files", true
         property "sonar.android.lint.report", "./build/outputs/lint-results.xml"
+        property "sonar.junit.reportsPath","**/build/test-results/**/*.xml"
     }
 }
 
