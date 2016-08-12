@@ -7,7 +7,7 @@ apply plugin: 'com.android.application'
 sonarqube {
     properties {
         property "sonar.host.url","http://localhost:9000"
-        property "sonar.projectName", "Android Lint :: JenkinsSonarSample Project :: SonarQube Scanner for Gradle"
+        property "sonar.projectName", "JenkinsSonarSampl"
         property "sonar.projectKey", "org.sonarqube:android-JenkinsSonarSample-gradle"
         property "sonar.sourceEncoding","UTF-8"
         property "sonar.sources","."
