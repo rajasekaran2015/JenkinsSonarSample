@@ -16,8 +16,9 @@ sonarqube {
         property "sonar.import_unknown_files", true
         property "sonar.android.lint.report", "./build/outputs/lint-results-debug.xml"
         property "sonar.junit.reportsPath","./build/test-results/debug"
-        property "sonar.jacoco.reportPath", "build/jacoco/testDebugUnitTest.exec" // path to coverage reports
+        property "sonar.jacoco.reportPath", "./build/reports/jacoco/jacocoTestDebugUnitTestReport/jacocoTestDebugUnitTestReport.xml" // path to coverage reports
         property "sonar.java.coveragePlugin", "jacoco"
+        property "sonar.jacoco.reportMissing.force.zero",true
     }
 }
 
